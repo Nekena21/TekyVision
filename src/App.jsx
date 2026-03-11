@@ -1,17 +1,17 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Suspense, lazy } from 'react'
-import Header from './components/layout/Header.jsx'
-import Footer from './components/layout/Footer.jsx'
-import TechBackground from './components/layout/TechBackground.jsx'
+import Header from './components/layout/Header'
+import Footer from './components/layout/Footer'
+import TechBackground from './components/layout/TechBackground'
 
-const Home = lazy(() => import('./pages/Home.jsx'))
-const About = lazy(() => import('./pages/About.jsx'))
-const Products = lazy(() => import('./pages/Products.jsx'))
-const Team = lazy(() => import('./pages/Team.jsx'))
-const TeamMember = lazy(() => import('./pages/TeamMember.jsx'))
-const Publications = lazy(() => import('./pages/Publications.jsx'))
-const Contact = lazy(() => import('./pages/Contact.jsx'))
-const ThankYou = lazy(() => import('./pages/ThankYou.jsx'))
+const Home = lazy(() => import('./pages/Home'))
+const About = lazy(() => import('./pages/About'))
+const Products = lazy(() => import('./pages/Products'))
+const Team = lazy(() => import('./pages/Team'))
+const TeamMember = lazy(() => import('./pages/TeamMember'))
+const Publications = lazy(() => import('./pages/Publications'))
+const Contact = lazy(() => import('./pages/Contact'))
+const ThankYou = lazy(() => import('./pages/ThankYou'))
 
 function PageLoader() {
   return (
