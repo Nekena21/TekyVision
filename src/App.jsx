@@ -30,7 +30,7 @@ function PageLoader() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/TekyVision">
       <TechBackground />
       <div className="tech-bg" aria-hidden="true" />
       <div className="page-wrapper">
